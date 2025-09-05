@@ -23,6 +23,14 @@ app.use(cors({
 app.use(express.json());
 
 // Initialize SQLite database
+const fs = require('fs');
+const dbDir = path.join(__dirname, '../database');
+
+// Create database directory if it doesn't exist
+if (!fs.existsSync(dbDir)) {
+  fs.mkdirSync(dbDir, { recursive: true });
+}
+
 const dbPath = path.join(__dirname, '../database/vehicle_data.db');
 const db = new Database(dbPath);
 
