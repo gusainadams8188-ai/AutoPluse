@@ -1,0 +1,27 @@
+{
+  "name": "automotive-dashboard",
+  "version": "1.0.0",
+  "description": "Professional Automotive Diagnostic Dashboard",
+  "main": "electron/main.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\" \"npm run electron\"",
+    "server": "cd server && node index.js",
+    "client": "cd client && npm run dev",
+    "electron": "cd electron && npm run dev",
+    "build": "cd client && npm run build",
+    "start": "npm run build && cd electron && npm start",
+    "install-all": "npm install && cd client && npm install && cd ../server && npm install && cd ../electron && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": [
+    "automotive",
+    "diagnostic",
+    "dashboard",
+    "obd-ii",
+    "electron"
+  ],
+  "author": "",
+  "license": "ISC"
+}

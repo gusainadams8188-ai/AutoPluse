@@ -1,0 +1,13 @@
+{
+  "name": "custom-visualizations",
+  "version": "1.0.0",
+  "description": "Custom visualization components and charts for automotive data",
+  "main": "plugin.js",
+  "author": "Dashboard Team",
+  "capabilities": ["client"],
+  "pluginDependencies": [],
+  "dependencies": {
+    "recharts": "^2.5.0"
+  },
+  "keywords": ["visualization", "charts", "automotive", "dashboard"]
+}

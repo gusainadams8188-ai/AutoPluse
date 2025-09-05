@@ -1,0 +1,44 @@
+redirectsOrigin = "config"
+plugins = []
+headers = []
+
+[dev]
+publish = "dist"
+command = "npm run dev"
+
+[functions]
+
+[functions."*"]
+
+[build]
+publish = "c:\\Users\\User\\OneDrive\\Desktop\\new app\\client\\dist"
+publishOrigin = "config"
+commandOrigin = "config"
+command = "npm run build"
+
+[build.environment]
+NODE_VERSION = "18"
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]
+
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200.0
+force = false
+
+[redirects.query]
+
+[redirects.conditions]
+
+[redirects.headers]

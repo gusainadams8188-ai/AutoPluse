@@ -1,0 +1,13 @@
+{
+  "name": "obd2-adapter",
+  "version": "1.0.0",
+  "description": "OBD-II adapter integration plugin for real vehicle diagnostics",
+  "main": "plugin.js",
+  "author": "Dashboard Team",
+  "license": "MIT",
+  "capabilities": ["obd2-connection", "bluetooth-adapter", "wifi-adapter", "real-time-diagnostics"],
+  "dependencies": {
+    "serialport": "^10.5.0",
+    "bluetooth-serial-port": "^2.2.7"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "vw-protocol-parser",
+  "version": "1.0.0",
+  "description": "VW protocol parser plugin for automotive diagnostics",
+  "main": "plugin.js",
+  "author": "Dashboard Team",
+  "license": "MIT",
+  "capabilities": ["vw-protocol-parsing", "oem-diagnostics", "vw-polo-support"]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "advanced-diagnostics",
+  "version": "1.0.0",
+  "description": "Advanced diagnostic commands and analysis tools",
+  "main": "plugin.js",
+  "author": "Dashboard Team",
+  "capabilities": ["server", "client"],
+  "pluginDependencies": [],
+  "dependencies": {},
+  "keywords": ["diagnostics", "automotive", "analysis"]
+}
